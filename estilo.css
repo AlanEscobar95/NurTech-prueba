@@ -1,0 +1,264 @@
+/* imagen de fondo */
+body{
+    margin: 0;
+    padding: 0;  
+    background-color:"yellow";
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* posicion header*/
+.header {
+    margin:left;
+    width: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}  
+/* margen y color */
+    .page-nav {
+        border:1px solid rgb(58, 49, 49);
+        background:#3d3d3d; 
+        color:rgb(160, 160, 160);
+        font-size: 15px;
+    
+    } 
+/* Logo */
+.page {
+    border:1px solid rgb(255, 255, 255);
+        background:#ffffff; 
+        font-size: 15px;
+}
+
+.logo{
+    background:#ffffff; 
+    padding:30px;
+}
+#button {
+    width:200px;
+    border-radius:2px;
+    border-top: 500px;
+    border-right:5px;
+    position:absolute;
+    right:90px;
+    top: 90px;    
+}
+
+.button-checkout{
+    background-color: rgb(53, 51, 51);
+
+}
+
+.button-checkout:hover {
+    background-color:#f3f038;
+    transition-duration: 0.3s;
+} 
+ /* menu */
+#menu ul {
+    list-style:none;
+    margin:  0px 100px 0px 0px;
+   }
+   
+   /* items del menu */
+   
+#menu ul li {
+    background-color:#f3f038;
+   }
+   
+   /* enlaces del menu */
+   
+#menu ul a {
+    display:block;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+    padding: 10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+   }
+   
+   /* items del menu */
+   
+#menu ul li {
+    position:relative;
+    float: left; 
+    margin: 0;
+    padding: 0;
+    min-width:200px;
+   }
+
+   
+/* slider */
+  .container{
+    margin: 10px 500px 700px;
+    background-color: rgba(234, 238, 17, 0);
+    width: 1500px;
+    padding:15px;
+  }
+  
+  ul, li {
+      padding: 70;
+      margin: 70;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: absolute;
+    width: 1500px;
+    right: 1px;
+  }
+
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 30px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  /*imagen*/
+  ul.slider li img{
+    width:100%;
+    height: 700px;
+    object-fit:initial;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  /*margen*/
+  .menu{
+    text-align: center;
+    margin: 80px;
+  }
+  
+  .menu li{
+    display:inline-block;
+    text-align: center;
+  }
+  
+  /*botones */
+  .menu li a{
+    position:relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #5b78a7;
+    padding: 10px;
+    width: 55px;
+    top:660px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  /* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #5b78a7;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+@media screen and (max-width:200px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Imagenes */
+.nur-tech{
+    position:relative;
+    bottom:130px;
+}
+
+.search{
+    position:relative;
+    bottom:100px;
+}
+
+.help {
+    position:relative;
+    bottom:100px;
+}
+
+.donante{
+    position:relative;
+    width:25%;
+    top:20px;
+}
+
+.donantes{
+    position:relative;
+    bottom:75px;
+}
+
+/*Boton */
+#secondButton {
+    width:204px;
+    height:40px;
+    border-radius:1px;
+    border-right:2px;
+    position:absolute;
+    left:105px;
+    top: 320px;    
+}
+
+.button-check{
+    background-color: #f3f038;
+}
+
+.button-check:hover {
+    background-color:rgb(53, 51, 51);
+    transition-duration:0.3s;
+}
